@@ -8,10 +8,17 @@ Link: https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby
 * When the program first loads, add in an option that allows you to open one of your saved games, which should jump you exactly back to where you were when you saved. Play on!
 
 NEXT UP:
-- Write game loop with guesses left counter
+- Create guesses left counter in the_game
 - Write function that lets user guess a letter, then checks if it exists in the secret word, and then makes those characters available / visible.
+- Make the_game read from save_game. 1) create function read_save_file 2) make it read hash from save_game.rb 3) see if you can print out the hash values.
+
 
 LOG:
+--- Wednesday June 30, 2021 ---
+- Wrote function that writes to a save file as a hash
+- Created game loop (function "the_game") where players get the choice to generate a new game or load a saved one.
+- Can now write to save game file and read from it, but need to tinker with input type.
+
 --- Tuesday June 29, 2021 ---
 - Created repository and README with project outlines.
 - Wrote logic that reads 5desk.txt file as an array, filters it for the right word length, and picks a random sample within it.
